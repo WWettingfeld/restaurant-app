@@ -20,7 +20,10 @@ const RestaurantDetail = ({ restaurant }) => {
 						}}
 						defaultZoom={14}
 					>
-						<GoogleMapMarker restaurant={restaurant} />
+						<GoogleMapMarker
+							lat={restaurant.latitude}
+							lng={restaurant.longitude}
+						/>
 					</GoogleMapReact>
 				</div>
 				<div className="header">
