@@ -1,0 +1,29 @@
+.app {
+	padding-top: 80px;
+}
+
+.app.no-scroll {
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+.app .drawer-enter {
+	left: -100%;
+}
+
+.app .drawer-enter.drawer-enter-active {
+	left: 0;
+	transition: left 300ms ease-in;
+}
+
+.app .drawer-leave {
+	left: 0;
+}
+
+.app .drawer-leave.drawer-leave-active {
+	left: -100%;
+	transition: left 300ms ease-in;
+}

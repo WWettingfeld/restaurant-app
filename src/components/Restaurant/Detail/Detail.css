@@ -1,0 +1,40 @@
+.restaurant-detail {
+	position: fixed;
+	top: 80px;
+	width: 100%;
+	height: calc(100% - 80px);
+	background: #ffffff;
+	z-index: 10;
+	overflow: hidden;
+}
+
+.restaurant-detail .map {
+	height: 180px;
+}
+
+.restaurant-detail .header {
+	background: #34b379;
+	color: #ffffff;
+	padding: 10px 12px;
+}
+
+.restaurant-detail .name {
+	font-weight: 600;
+	margin-bottom: 6px;
+}
+
+.restaurant-detail .category {
+	font-size: 12px;
+}
+
+.restaurant-detail .details {
+	padding: 16px 12px;
+}
+
+.restaurant-detail .details .address {
+	margin-bottom: 26px;
+}
+
+.restaurant-detail .details .phone {
+	margin-bottom: 26px;
+}

@@ -1,0 +1,51 @@
+.restaurant-list-item {
+	height: 225px;
+	list-style-type: none;
+	color: #ffffff;
+	position: relative;
+	cursor: pointer;
+}
+
+.restaurant-list-item .gradient-bg {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0);
+	background: linear-gradient(
+		180deg,
+		rgba(0, 0, 0, 0) 0%,
+		rgba(0, 0, 0, 0) 50%,
+		rgba(0, 0, 0, 0.75) 100%
+	);
+}
+
+.restaurant-list-item .details {
+	position: absolute;
+	bottom: 10px;
+	left: 15px;
+	z-index: 1;
+}
+
+.restaurant-list-item .name {
+	font-size: 16px;
+	font-weight: 600;
+}
+
+.restaurant-list-item .category {
+	font-size: 12px;
+}
+
+@media only screen and (min-width: 768px) {
+	.restaurant-list-item {
+		width: 50%;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.restaurant-list-item {
+		max-width: 400px;
+		margin: 20px 0;
+	}
+}

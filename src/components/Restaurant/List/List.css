@@ -1,0 +1,19 @@
+.restaurant-list {
+	padding: 0;
+	margin: 0;
+}
+
+@media only screen and (min-width: 768px) {
+	.restaurant-list {
+		display: flex;
+		flex-flow: row wrap;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.restaurant-list {
+		margin: 0 auto;
+		width: 900px;
+		justify-content: space-around;
+	}
+}
